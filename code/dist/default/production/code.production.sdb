@@ -1,0 +1,349 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"4 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/BUTTON/ecu_button.c
+[e E2553 . `uc
+BUTTON_RELEASED 0
+BUTTON_PRESSED 1
+]
+[e E2557 . `uc
+BUTTON_ACTIVE_LOW 0
+BUTTON_ACTIVE_HIGH 1
+]
+"24
+[e E2514 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"30 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/Relay/ecu_relay.c
+[e E2514 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"99
+[e E2510 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+"34 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\MCAL/GPIO/hal_gpio.c
+[e E2510 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+"53
+[e E2514 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"119
+[e E2493 . `uc
+GPIO_PORTA 0
+GPIO_PORTB 1
+GPIO_PORTC 2
+GPIO_PORTD 3
+GPIO_PORTE 4
+]
+"14 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\project.c
+[e E2493 . `uc
+GPIO_PORTA 0
+GPIO_PORTB 1
+GPIO_PORTC 2
+GPIO_PORTD 3
+GPIO_PORTE 4
+]
+[e E2500 . `uc
+GPIO_PIN0 0
+GPIO_PIN1 1
+GPIO_PIN2 2
+GPIO_PIN3 3
+GPIO_PIN4 4
+GPIO_PIN5 5
+GPIO_PIN6 6
+GPIO_PIN7 7
+]
+"17
+[e E2553 . `uc
+BUTTON_RELEASED 0
+BUTTON_PRESSED 1
+]
+[e E2557 . `uc
+BUTTON_ACTIVE_LOW 0
+BUTTON_ACTIVE_HIGH 1
+]
+[e E2510 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+[e E2514 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"4 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/BUTTON/ecu_button.c
+[v _button_initialize button_initialize `(uc  1 e 1 0 ]
+"17
+[v _button_read_status button_read_status `(uc  1 e 1 0 ]
+"5 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/Relay/ecu_relay.c
+[v _Relay_initialize Relay_initialize `(uc  1 e 1 0 ]
+"21
+[v _Relay_Turn_On Relay_Turn_On `(uc  1 e 1 0 ]
+"36
+[v _Relay_Turn_Off Relay_Turn_Off `(uc  1 e 1 0 ]
+"97
+[v _Relay_Config Relay_Config `(v  1 s 1 Relay_Config ]
+"16 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+"53
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+"77
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+"103
+[v _gpio_pin_initialize gpio_pin_initialize `(uc  1 e 1 0 ]
+"48 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\project.c
+[v _main main `(v  1 e 1 0 ]
+"93
+[v _initialization initialization `(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"11 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\MCAL/GPIO/hal_gpio.c
+[v _tris_registers tris_registers `[5]*.39VEuc  1 e 10 0 ]
+"12
+[v _port_registers port_registers `[5]*.39VEuc  1 e 10 0 ]
+"13
+[v _lat_registers lat_registers `[5]*.39VEuc  1 e 10 0 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+"14 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\project.c
+[v _relay1 relay1 `S76  1 e 1 0 ]
+"15
+[v _relay2 relay2 `S76  1 e 1 0 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"17
+[s S35 . 3 `S24 1 button_pin 1 0 `E2553 1 button_status 1 1 `E2557 1 button_active 1 2 ]
+[v _btn_two_motors btn_two_motors `S35  1 e 3 0 ]
+"28
+[v _btn_switch_motor btn_switch_motor `S35  1 e 3 0 ]
+"41
+[v _status_two_motors status_two_motors `E2553  1 e 1 0 ]
+"42
+[v _status_switch_motor status_switch_motor `E2553  1 e 1 0 ]
+"44
+[v _flag_change_status_two_motors flag_change_status_two_motors `VEuc  1 e 1 0 ]
+"45
+[v _flag_change_status_switch_motor flag_change_status_switch_motor `VEuc  1 e 1 0 ]
+"48
+[v _main main `(v  1 e 1 0 ]
+{
+"91
+} 0
+"93
+[v _initialization initialization `(v  1 e 1 0 ]
+{
+"101
+} 0
+"4 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/BUTTON/ecu_button.c
+[v _button_initialize button_initialize `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[s S35 . 3 `S24 1 button_pin 1 0 `E2553 1 button_status 1 1 `E2557 1 button_active 1 2 ]
+[v button_initialize@btn btn `*.30CS35  1 p 1 6 ]
+"14
+} 0
+"5 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/Relay/ecu_relay.c
+[v _Relay_initialize Relay_initialize `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"12
+[v Relay_initialize@pin_config pin_config `S24  1 a 1 11 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+"5
+[v Relay_initialize@_relay _relay `*.30S76  1 p 1 10 ]
+"19
+} 0
+"103 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_initialize gpio_pin_initialize `(uc  1 e 1 0 ]
+{
+"105
+[v gpio_pin_initialize@ret ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"103
+[v gpio_pin_initialize@_pin_config _pin_config `*.30CS24  1 p 1 7 ]
+"114
+} 0
+"16
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_direction_initialize@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+"37
+} 0
+"17 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/BUTTON/ecu_button.c
+[v _button_read_status button_read_status `(uc  1 e 1 0 ]
+{
+"24
+[v button_read_status@pin_login_status pin_login_status `E2514  1 a 1 9 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"17
+[s S35 . 3 `S24 1 button_pin 1 0 `E2553 1 button_status 1 1 `E2557 1 button_active 1 2 ]
+[v button_read_status@btn btn `*.30CS35  1 p 1 6 ]
+[v button_read_status@btn_status btn_status `*.30E2553  1 p 1 7 ]
+"51
+} 0
+"77 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_read_logic@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+[v gpio_pin_read_logic@logic logic `*.30E2514  1 p 1 1 ]
+"87
+} 0
+"21 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/Relay/ecu_relay.c
+[v _Relay_Turn_On Relay_Turn_On `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"28
+[v Relay_Turn_On@pin_config pin_config `S24  1 a 1 8 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+"21
+[v Relay_Turn_On@_relay _relay `*.30S76  1 p 1 7 ]
+"34
+} 0
+"36
+[v _Relay_Turn_Off Relay_Turn_Off `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"43
+[v Relay_Turn_Off@pin_config pin_config `S24  1 a 1 8 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+"36
+[v Relay_Turn_Off@_relay _relay `*.30S76  1 p 1 7 ]
+"49
+} 0
+"53 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_write_logic@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+[v gpio_pin_write_logic@logic logic `E2514  1 p 1 1 ]
+"74
+} 0
+"97 D:\Embedded\Microcontroller\Projects\Motor Control with Relay\code\ECU/Relay/ecu_relay.c
+[v _Relay_Config Relay_Config `(v  1 s 1 Relay_Config ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v Relay_Config@pin_config pin_config `*.30S24  1 p 1 0 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+[v Relay_Config@_relay _relay `*.30S76  1 p 1 1 ]
+"103
+} 0
